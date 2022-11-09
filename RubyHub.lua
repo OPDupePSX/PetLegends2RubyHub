@@ -1,5 +1,5 @@
 if game.PlaceId == 8864518888 then
-	
+
 	-- Global Variables:
 
 	_G.AutoFarm = false
@@ -16,7 +16,7 @@ if game.PlaceId == 8864518888 then
 	_G.RewardsSpeed = 300
 
 	-- Services:
-	
+
 	local UserInputService = game:GetService("UserInputService")
 
 	-- Extra Data:
@@ -1271,6 +1271,12 @@ if game.PlaceId == 8864518888 then
 		end
 
 	end)
+	
+	-- Draggable:
+	
+	Background.Active = true
+	Background.Selectable = true
+	Background.Draggable = true
 
 	-- Open Menus:
 
@@ -1623,5 +1629,5 @@ if game.PlaceId == 8864518888 then
 		end
 
 	end)
-	
+
 end
