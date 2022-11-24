@@ -36,6 +36,13 @@ if game.PlaceId == 8864518888 then
 			["Vector"] = Vector3.new(-1211.2890625, 60.619991302490234, -2264.147216796875);
 
 		};
+		
+		["void"] = {
+
+			["TextureID"] = "rbxassetid://11566151896";
+			["Vector"] = Vector3.new(-4200.2109375, 41.58231735229492, -158.6981201171875);
+
+		};
 
 	}
 
@@ -1243,7 +1250,7 @@ if game.PlaceId == 8864518888 then
 	Title_14.Size = UDim2.new(1, 0, 0.899999976, 0)
 	Title_14.Visible = true
 	Title_14.Font = Enum.Font.DenkOne
-	Title_14.Text = "Ice, Desert"
+	Title_14.Text = "Ice, Desert, Void"
 	Title_14.TextColor3 = Color3.fromRGB(255, 70, 70)
 	Title_14.TextScaled = true
 	Title_14.TextSize = 14.000
